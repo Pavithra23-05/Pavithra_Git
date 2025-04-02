@@ -19,6 +19,8 @@ public class Sample2 {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		
 		System.out.println(driver.getTitle());
+
+		System.out.println(driver.getCurrentUrl);
 		
 		driver.close();
 		
